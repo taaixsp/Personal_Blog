@@ -13,10 +13,25 @@ public class UsuarioLogin {
 	private String image;
 	
 	private String token;
+	
+	
 
+	public UsuarioLogin(Long id, String name, String usuario, String password, String image, String token) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.usuario = usuario;
+		this.password = password;
+		this.image = image;
+		this.token = token;
+	}
+
+	public UsuarioLogin () {}
+	
 	public Long getId() {
 		return id;
 	}
+	
 
 	public void setId(Long id) {
 		this.id = id;
